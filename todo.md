@@ -1,0 +1,31 @@
+# Todo List for Paper Report Skill Improvements
+
+- [x] 整合 `resources.md` 中的 MCP 工具到 `SKILL.md` 的 PDF 下载部分
+    - [x] 添加 [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp)
+    - [x] 添加 [LinXueyuanStdio/academic-mcp](https://github.com/LinXueyuanStdio/academic-mcp)
+- [x] 修改 `SKILL.md` 的叙述风格，从处理单篇论文改为处理会议网址上的多篇论文
+- [x] 更新 `SKILL.md` 中的 BibTeX 生成逻辑
+    - [x] 引入 [batch_bibtex.py](conf-analysis/skills/paper-report/scripts/batch_bibtex.py) 脚本替代手动 MCP 调用
+    - [x] 明确多轮处理后直接导出 .bib 文件的流程
+- [x] 改进引用链分析（Step 5）
+    - [x] 将引用链分析标记为可选步骤 (Optional)
+    - [x] 引入更专业的学术 MCP 服务（如 academic-mcp）
+- [x] **[新增]** 在 `SKILL.md` 中添加可选步骤：主题背景与经典论文 (Step 4)
+    - [x] 对应 [summary.md](conf-analysis/skills/paper-report/template/summary.md) 中的“主题基础和经典论文”部分
+- [x] 为 Skill 绘制流程图并添加到 [conf-analysis/README.md](conf-analysis/README.md)
+    - [x] 更新流程图以反映新增的可选步骤
+- [x] 在 `scripts` 目录下编写批量处理 BibTeX 的 Python 脚本并添加测试
+    - [x] 编写并实现 [batch_bibtex.py](conf-analysis/skills/paper-report/scripts/batch_bibtex.py)
+    - [x] 使用 `bibtexparser` 库重构解析逻辑，提高准确性
+    - [x] 自定义 BibTeX Key 格式为 `<第一作者姓><年份><标题关键词>`
+    - [x] 编写测试数据 [test_papers.json](conf-analysis/skills/paper-report/scripts/test_papers.json) 并运行测试
+- [x] **[优化]** 实现 [extract_papers.py](conf-analysis/skills/paper-report/scripts/extract_papers.py) 脚本：使用 **Crawl4AI** 提取元数据并生成 `papers.json` (Step 1)
+    - [x] 完成基于 Pydantic Schema 的结构化提取逻辑
+- [x] **[修复]** 解决 Python 3.9 环境下 Crawl4AI 的类型提示兼容性问题
+    - [x] 使用 **uv** 配置 Python 3.13 运行环境
+    - [x] 适配 `batch_bibtex.py` 的 SSL 证书校验逻辑以确保在受限环境运行
+    - [x] 修复 `extract_papers.py` 中的 `JsonExtractionStrategy` 导入问题
+- [x] **[新增]** 集成 Crawl4AI 官方 Skill 资源
+    - [x] 下载并解压 [crawl4ai-skill.zip](https://docs.crawl4ai.com/assets/crawl4ai-skill.zip) 到 `conf-analysis/skills/crawl4ai`
+- [ ] **[待定]** 调研引用分析的替代方案
+    - [ ] 寻找更好用的 Python 包、脚本、Skill 或 MCP 服务（当前 Step 5 并非最理想方案）

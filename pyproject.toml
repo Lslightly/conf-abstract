@@ -1,0 +1,12 @@
+[project]
+name = "conf-abstract"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bibtexparser>=1.4.4",
+    "crawl4ai>=0.8.6",
+    "pydantic>=2.13.2",
+    "pyparsing>=3.3.2",
+]

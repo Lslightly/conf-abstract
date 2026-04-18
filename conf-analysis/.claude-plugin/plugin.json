@@ -1,0 +1,5 @@
+{
+  "name": "conf-analysis",
+  "version": "0.1.0",
+  "description": "Academic conference paper analysis - generate reports from conference webpages"
+}
