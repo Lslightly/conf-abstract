@@ -3,9 +3,11 @@ import argparse
 import sys
 import urllib.request
 import urllib.parse
+import ssl
 import time
 import re
 import bibtexparser
+from tqdm import tqdm
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.bibdatabase import BibDatabase
 
@@ -16,8 +18,11 @@ def search_dblp(title):
     encoded_title = urllib.parse.quote(title)
     url = f"https://dblp.org/search/publ/api?q={encoded_title}&format=json&h=1"
     
+    # Bypass SSL verification if it fails locally
+    context = ssl._create_unverified_context()
+    
     try:
-        with urllib.request.urlopen(url) as response:
+        with urllib.request.urlopen(url, context=context) as response:
             data = json.loads(response.read().decode())
             hits = data.get("result", {}).get("hits", {}).get("hit", [])
             if not hits:
@@ -37,8 +42,9 @@ def fetch_bibtex(bib_url):
     """
     Fetch the BibTeX content from a DBLP .bib URL.
     """
+    context = ssl._create_unverified_context()
     try:
-        with urllib.request.urlopen(bib_url) as response:
+        with urllib.request.urlopen(bib_url, context=context) as response:
             return response.read().decode()
     except Exception as e:
         print(f"  Error fetching BibTeX from {bib_url}: {e}")
@@ -111,7 +117,7 @@ def batch_process_bibtex(input_file, output_file):
     print(f"Starting batch process for {len(papers)} papers...")
     bib_entries = []
 
-    for paper in papers:
+    for paper in tqdm(papers):
         title = paper.get('title')
         if not title:
             continue

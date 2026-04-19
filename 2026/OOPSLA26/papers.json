@@ -1,0 +1,704 @@
+[
+  {
+    "title": "A Minimalist Proof Language for Neural Theorem Proving over Isabelle/HOL",
+    "authors": [
+      "Qiyuan Xu",
+      "Renxi Wang",
+      "Peixin Wang",
+      "Haonan Li",
+      "Conrad Watt"
+    ]
+  },
+  {
+    "title": "A Tale of 1001 LoC: Potential Runtime Error-Guided Specification Synthesis for Verifying Large-Scale Programs",
+    "authors": [
+      "Zhongyi Wang",
+      "Tengjie Lin",
+      "Mingshuai Chen",
+      "Haokun Li",
+      "Mingqi Yang",
+      "Xiao Yi",
+      "Shengchao Qin",
+      "Yixing Luo",
+      "Xiaofeng Li",
+      "Bin Gu",
+      "Liqiang Lu",
+      "Jianwei Yin"
+    ]
+  },
+  {
+    "title": "Automatic Propagation of Profile Information through the Optimization Pipeline",
+    "authors": [
+      "Elisa Frohlich",
+      "Angelica Moreira",
+      "Fernando Magno Quintão Pereira"
+    ]
+  },
+  {
+    "title": "Beacon: Detecting Broken Access Control Vulnerabilities in DBMSs via System Catalog Consistency Validation",
+    "authors": [
+      "Zongrui Peng",
+      "Jingzhou Fu",
+      "Zhiyong Wu",
+      "Jie Liang",
+      "Xiangdong Huang",
+      "Dalong Shi",
+      "Yu Jiang"
+    ]
+  },
+  {
+    "title": "Beer: Interactive Alarm Resolution in Bayesian Program Analysis via Exploration-Exploitation",
+    "authors": [
+      "Haoran Lin",
+      "Zhenyu Yan",
+      "Xin Zhang"
+    ]
+  },
+  {
+    "title": "Beyond Coverage: Automatic Test Suite Augmentation for Enhanced Effectiveness Using Large Language Models",
+    "authors": [
+      "Zeyu Lu",
+      "Peng Zhang",
+      "Yuge Nie",
+      "Yibiao Yang",
+      "Yutian Tang",
+      "Chun Yong Chong",
+      "Yuming Zhou"
+    ]
+  },
+  {
+    "title": "Block Tests",
+    "authors": [
+      "Kevin Guan",
+      "Pengyue Jiang",
+      "Milos Gligoric",
+      "Owolabi Legunsen"
+    ]
+  },
+  {
+    "title": "Class-Dictionary Specialization With Rank-2 Polymorphic Functions",
+    "authors": [
+      "Yong Qi Foo",
+      "Michael D. Adams"
+    ]
+  },
+  {
+    "title": "CLower: Detecting Compiler Pessimization Bugs through Redundant Memory Accesses",
+    "authors": [
+      "Jianhao Xu",
+      "Kunbo Zhang",
+      "Mathias Payer",
+      "Kangjie Lu",
+      "Bing Mao"
+    ]
+  },
+  {
+    "title": "CMakeSonar: A Static Approach to Detecting CMake Bugs with a Fine-Grained Type System",
+    "authors": [
+      "Haotian Han",
+      "Zihang Zhong",
+      "Qingan Li",
+      "Jingling Xue",
+      "YUAN Mengting"
+    ]
+  },
+  {
+    "title": "Commuting Conversions and Join Points for Call-By-Push-Value",
+    "authors": [
+      "Jonathan Chan",
+      "Madi Gudin",
+      "Annabel Levy",
+      "Stephanie Weirich"
+    ]
+  },
+  {
+    "title": "Context-Free Language Reachability via Efficient Relation Chaining",
+    "authors": [
+      "Chenghang Shi",
+      "Haofeng Li",
+      "Jie Lu",
+      "Lian Li"
+    ]
+  },
+  {
+    "title": "Debugging Debugging Information Using Dynamic Call Trees",
+    "authors": [
+      "J. Ryan Stinnett",
+      "Stephen Kell"
+    ]
+  },
+  {
+    "title": "DeCo: A Core Calculus for Incremental Functional Programming with Generic Data Types",
+    "authors": [
+      "Timon Böhler",
+      "Tobias Reinhard",
+      "David Richter",
+      "Mira Mezini"
+    ]
+  },
+  {
+    "title": "Decompiling for Constant-Time Analysis",
+    "authors": [
+      "Santiago Arranz Olmos",
+      "Gilles Barthe",
+      "Lionel Blatter",
+      "Youcef Bouzid",
+      "Sören van der Wall",
+      "Zhiyuan Zhang"
+    ]
+  },
+  {
+    "title": "Deegen: A JIT-Capable VM Generator for Dynamic Languages",
+    "authors": [
+      "Haoran Xu",
+      "Fredrik Kjolstad"
+    ]
+  },
+  {
+    "title": "Designing GPU Data Structures for Efficient Memory Oversubscription",
+    "authors": [
+      "Vipin Patel",
+      "Srinjoy Sarkar",
+      "Swarnendu Biswas",
+      "Mainak Chaudhuri"
+    ]
+  },
+  {
+    "title": "Detecting Flaky Tests by Controlling Nondeterministic API Behavior",
+    "authors": [
+      "Hengchen Yuan",
+      "Jiefang Lin",
+      "August Shi"
+    ]
+  },
+  {
+    "title": "Determining the Unreachable: Constraint-Guided Reachability Analysis for Dependency Vulnerabilities",
+    "authors": [
+      "Wenbu Feng",
+      "Xiaohong Li",
+      "Ruitao Feng",
+      "Yao Zhang",
+      "Yuekang Li",
+      "Zhiping Zhou",
+      "Yunqian Wang",
+      "Yuqing Li"
+    ]
+  },
+  {
+    "title": "Diatom: Polylithic Binary Lifting with Data-flow Summaries and Type-aware IR Linking",
+    "authors": [
+      "Anshunkang Zhou",
+      "Charles Zhang"
+    ]
+  },
+  {
+    "title": "Differential Execution with Lexical Tracing",
+    "authors": [
+      "Sebastian Erdweg",
+      "Runqing Xu",
+      "Mo Bitar"
+    ]
+  },
+  {
+    "title": "(Dis)Proving Spectre Security with Speculation-Passing Style",
+    "authors": [
+      "Santiago Arranz Olmos",
+      "Gilles Barthe",
+      "Lionel Blatter",
+      "Xingyu Xie",
+      "Zhiyuan Zhang"
+    ]
+  },
+  {
+    "title": "EditFlow: Benchmarking and Optimizing Code Edit Recommendation Systems via Reconstruction of Developer Flows",
+    "authors": [
+      "Chenyan Liu",
+      "Yun Lin",
+      "Jiaxin Chang",
+      "Jiawei Liu",
+      "Binhang Qi",
+      "Bo Jiang",
+      "Zhiyong Huang",
+      "Jin Song Dong"
+    ]
+  },
+  {
+    "title": "Effectively Propositional Higher-Order Functional Programming",
+    "authors": [
+      "Nicholas V. Lewchenko",
+      "Kunha Kim",
+      "Bor-Yuh Evan Chang",
+      "Gowtham Kaki"
+    ]
+  },
+  {
+    "title": "Efficient Directed Hybrid Fuzzing via Target-Centric Seed Selection and Generation",
+    "authors": [
+      "Zhen Li",
+      "Shenghan Liu",
+      "Qiuping Yi",
+      "Pengbo Du",
+      "Hongliang Liang"
+    ]
+  },
+  {
+    "title": "Efficient Incremental GR(1) Synthesis via Monotonic Fixed-Point Reuse",
+    "authors": [
+      "Sirui Liu",
+      "Wei Dong",
+      "Yijie Zheng",
+      "Haonan Guo"
+    ]
+  },
+  {
+    "title": "Fail Faster: Staging and Fast Randomness for High-Performance PBT",
+    "authors": [
+      "Cynthia Richey",
+      "Joseph W. Cutler",
+      "Harrison Goldstein",
+      "Benjamin C. Pierce"
+    ]
+  },
+  {
+    "title": "Floating-Point Usage on GitHub: a Large-Scale Study of Statically Typed Languages",
+    "authors": [
+      "Andrea Gilot",
+      "Tobias Wrigstad",
+      "Eva Darulova"
+    ]
+  },
+  {
+    "title": "From Raw Pointers to Memory Safety: A Modular Demand-Driven Typestate Analysis for Rust",
+    "authors": [
+      "Wei Li",
+      "Wenyao Chen",
+      "Jingling Xue"
+    ]
+  },
+  {
+    "title": "Fully-Automatic Type Inference for Borrows with Lifetimes",
+    "authors": [
+      "William Brandon",
+      "Benjamin Driscoll",
+      "Frank Dai",
+      "Jonathan Ragan-Kelley",
+      "Mae Milano",
+      "Alex Aiken"
+    ]
+  },
+  {
+    "title": "Geo: A Query Rewrite Framework for Graph Pattern Mining",
+    "authors": [
+      "Nazanin Yousefian",
+      "Kasra Jamshidi",
+      "Keval Vora",
+      "Anders Miltner"
+    ]
+  },
+  {
+    "title": "Grammar Repair with Examples and Tree Automata",
+    "authors": [
+      "Yunjeong Lee",
+      "Gokul Rajiv",
+      "Ilya Sergey"
+    ]
+  },
+  {
+    "title": "Handling Exceptions and Effects with Automatic Resource Analysis",
+    "authors": [
+      "Ethan Chu",
+      "Jan Hoffmann",
+      "Yiyang Guo"
+    ]
+  },
+  {
+    "title": "Hermes: Making Path-Sensitive Pointer Analysis Scalable for Sparse Value-Flow Analysis",
+    "authors": [
+      "Yuxuan He",
+      "Ruilin Jiang",
+      "He Zhang",
+      "Qingkai Shi",
+      "Huaxun Huang",
+      "Rongxin Wu"
+    ]
+  },
+  {
+    "title": "Hunting CUDA Bugs at Scale with cuFuzz",
+    "authors": [
+      "Mohamed Tarek Ibn Ziad",
+      "Christos Kozyrakis"
+    ]
+  },
+  {
+    "title": "Hybrid Game Control Envelope Synthesis",
+    "authors": [
+      "Aditi Kabra",
+      "Jonathan Laurent",
+      "Stefan Mitsch",
+      "André Platzer"
+    ]
+  },
+  {
+    "title": "InspectCoder: Dynamic Analysis-Driven Self Repair through interactive LLM-Debugger Collaboration",
+    "authors": [
+      "Yunkun Wang",
+      "Yue Zhang",
+      "Guochang Li",
+      "Chen Zhi",
+      "Binhua Li",
+      "Fei Huang",
+      "Yongbin Li",
+      "Shuiguang Deng"
+    ]
+  },
+  {
+    "title": "IRIDIUM: A Framework for Statically Optimizing JavaScript Programs",
+    "authors": [
+      "Meetesh Kalpesh Mehta",
+      "Anirudh Garg",
+      "Aneeket Yadav",
+      "Manas Thakur"
+    ]
+  },
+  {
+    "title": "LARTS: Language Abstractions for Real-Time and Secure Systems",
+    "authors": [
+      "Yanqi Li",
+      "Hongliang Liang",
+      "Rui Yao",
+      "Yang Zhang",
+      "Dong Liu",
+      "Lei Wang",
+      "Qiuping Yi"
+    ]
+  },
+  {
+    "title": "Lawyer: Modular Obligations-Based Liveness Reasoning in Higher-Order Impredicative Concurrent Separation Logic",
+    "authors": [
+      "Egor Namakonov",
+      "Justus Fasse",
+      "Bart Jacobs",
+      "Lars Birkedal",
+      "Amin Timany"
+    ]
+  },
+  {
+    "title": "Learning Symmetric Invariants from Symmetric Samples",
+    "authors": [
+      "Zhijie Xu",
+      "Fei He"
+    ]
+  },
+  {
+    "title": "LLM-Powered Silent Bug Fuzzing in Deep Learning Libraries via Versatile and Controlled Bug Transfer",
+    "authors": [
+      "Kunpeng Zhang",
+      "Dongwei Xiao",
+      "Daoyuan Wu",
+      "Shuai Wang",
+      "Jiali Zhao",
+      "Yuanyi Lin",
+      "Tongtong Xu",
+      "Shaohua Wang"
+    ]
+  },
+  {
+    "title": "Localizing Type Errors for Syntactic Sugar by Lifting",
+    "authors": [
+      "Zhichao Guan",
+      "Tailai Yu",
+      "Di Wang",
+      "Zhenjiang Hu"
+    ]
+  },
+  {
+    "title": "Mechanically Translating Iterative Dataflow Analysis to Algebraic Program Analysis",
+    "authors": [
+      "Chenyu Zhou",
+      "Jingbo Wang",
+      "Chao Wang"
+    ]
+  },
+  {
+    "title": "Mechanised Semantics of Multi-Stage Programming",
+    "authors": [
+      "Ka Wing Li",
+      "Maite Kramarz",
+      "Ningning Xie",
+      "Jeremy Yallop"
+    ]
+  },
+  {
+    "title": "Metamorphic Testing for Infrastructure-as-Code Engines",
+    "authors": [
+      "David Spielmann",
+      "George Zakhour",
+      "Dominik Arnold",
+      "Matteo Biagiola",
+      "Roland Meier",
+      "Guido Salvaneschi"
+    ]
+  },
+  {
+    "title": "MetaSpace: Metamorphic Testing for Spatial Cognition in Embodied Agents",
+    "authors": [
+      "Gengyang Xu",
+      "Dongwei Xiao",
+      "Yiteng Peng",
+      "Shuai Wang"
+    ]
+  },
+  {
+    "title": "Mixed Choice in Asynchronous Multiparty Session Types",
+    "authors": [
+      "Laura Bocchi",
+      "Raymond Hu",
+      "Adriana Laura Voinea",
+      "Simon Thompson"
+    ]
+  },
+  {
+    "title": "Mixtris: Mechanised Higher-Order Separation Logic for Mixed Choice Multiparty Message Passing",
+    "authors": [
+      "Jonas Kastberg Hinrichsen",
+      "Iwan Quémerais",
+      "Lars Birkedal"
+    ]
+  },
+  {
+    "title": "noDice: Inference for Discrete Probabilistic Programs with Nondeterminism and Conditioning",
+    "authors": [
+      "Tobias Gürtler",
+      "Benjamin Lucien Kaminski"
+    ]
+  },
+  {
+    "title": "OBsmith: LLM-powered JavaScript Obfuscator Testing",
+    "authors": [
+      "Shan Jiang",
+      "Chenguang Zhu",
+      "Sarfraz Khurshid"
+    ]
+  },
+  {
+    "title": "Online Input Grammar Synthesis Aided Symbolic Execution",
+    "authors": [
+      "Ke Ma",
+      "Yunlai Luo",
+      "Zhenbang Chen",
+      "Weijiang Hong",
+      "Yufeng Zhang",
+      "Ji Wang"
+    ]
+  },
+  {
+    "title": "Peeling off the Cocoon: Unveiling Suppressed Golden Seeds for Mutational Greybox Fuzzing",
+    "authors": [
+      "Ruixiang Qian",
+      "Chunrong Fang",
+      "Zengxu Chen",
+      "Youxin Fu",
+      "Zhenyu Chen"
+    ]
+  },
+  {
+    "title": "Phaedrus: Predicting Dynamic Application Behavior with Lightweight Generative Models and LLMs",
+    "authors": [
+      "Bodhisatwa Chatterjee",
+      "Neeraj Jadhav",
+      "Santosh Pande"
+    ]
+  },
+  {
+    "title": "PLEX: Normalization for Refinement Types",
+    "authors": [
+      "Alessio Ferrarini",
+      "Niki Vazou",
+      "Wouter Swierstra"
+    ]
+  },
+  {
+    "title": "Probabilistic Floating-Point Round-Off Analysis via Concentration Inequalities",
+    "authors": [
+      "Yichen Tao",
+      "Hongfei Fu",
+      "Jiawei Chen",
+      "Jean-Baptiste Jeannin"
+    ]
+  },
+  {
+    "title": "Process-Centric Analysis of Agentic Software Systems",
+    "authors": [
+      "Shuyang Liu",
+      "Yang Chen",
+      "Rahul Krishna",
+      "Saurabh Sinha",
+      "Jatin Ganhotra",
+      "Reyhaneh Jabbarvand"
+    ]
+  },
+  {
+    "title": "Prunario: Testing Autonomous Driving Systems by Pruning Likely Redundant Scenarios",
+    "authors": [
+      "Minsu Kim",
+      "Sunbeom So",
+      "Hakjoo Oh"
+    ]
+  },
+  {
+    "title": "RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling",
+    "authors": [
+      "Yuchong Xie",
+      "Kaikai Zhang",
+      "Yu Liu",
+      "Rundong Yang",
+      "Ping Chen",
+      "Shuai Wang",
+      "Dongdong She"
+    ]
+  },
+  {
+    "title": "RAT-CAT-SAT: Model Checking Memory Consistency Models",
+    "authors": [
+      "Jan Grünke",
+      "Thomas Haas",
+      "Roland Meyer"
+    ]
+  },
+  {
+    "title": "Reframing Paths as Logic: Semantic Segmentation for Vulnerability Detection",
+    "authors": [
+      "Zong Cao",
+      "Yuqiang Sun",
+      "Zhengzi Xu",
+      "Kaixuan Li",
+      "Yeqi Fu",
+      "Yiran Zhang",
+      "Ziqiao Kong",
+      "Yang Liu"
+    ]
+  },
+  {
+    "title": "Scylla: Translating an Applicative Subset of C to Safe Rust",
+    "authors": [
+      "Aymeric Fromherz",
+      "Jonathan Protzenko"
+    ]
+  },
+  {
+    "title": "Sound and Complete Invariant-Based Heap Encodings",
+    "authors": [
+      "Zafer Esen",
+      "Philipp Ruemmer",
+      "Tjark Weber"
+    ]
+  },
+  {
+    "title": "Speak Now: Safe Actor Programming with Multiparty Session Types",
+    "authors": [
+      "Simon Fowler",
+      "Raymond Hu"
+    ]
+  },
+  {
+    "title": "Specy: Learning Specifications for Distributed Systems from Event Traces",
+    "authors": [
+      "Mike He",
+      "Ankush Desai",
+      "Aishwarya Jagarapu",
+      "Doug Terry",
+      "Sharad Malik",
+      "Aarti Gupta"
+    ]
+  },
+  {
+    "title": "Static Factorisation of Probabilistic Programs With User-Labelled Sample Statements and While Loops",
+    "authors": [
+      "Markus Böck",
+      "Jürgen Cito"
+    ]
+  },
+  {
+    "title": "SymGPT: Auditing Smart Contracts via Combining Symbolic Execution with Large Language Models",
+    "authors": [
+      "Shihao Xia",
+      "Mengting He",
+      "Shuai Shao",
+      "Tingting Yu",
+      "Yiying Zhang",
+      "Nobuko Yoshida",
+      "Linhai Song"
+    ]
+  },
+  {
+    "title": "Taming the Hydra: Targeted Control-Flow Transformations for Dynamic Symbolic Execution",
+    "authors": [
+      "Charitha Saumya",
+      "Muhammad Hassan",
+      "Rohan Gangaraju",
+      "Milind Kulkarni",
+      "Kirshanthan Sundararajah"
+    ]
+  },
+  {
+    "title": "Type inference for functional and imperative dynamic languages",
+    "authors": [
+      "Mickaël Laurent",
+      "Jan Vitek"
+    ]
+  },
+  {
+    "title": "Type-Safe Monotonic Object Evolution",
+    "authors": [
+      "Alexandra Mirrlees-Black",
+      "Haoyu Wu",
+      "Gregor Richards",
+      "Fabian Muehlboeck"
+    ]
+  },
+  {
+    "title": "Understanding and Finding JIT Compiler Performance Bugs",
+    "authors": [
+      "Zijian Yi",
+      "Cheng Ding",
+      "August Shi",
+      "Milos Gligoric"
+    ]
+  },
+  {
+    "title": "VeriEQ: Finding Verilog Simulators and Synthesizers Bugs with Equivalence Circuit Transformation",
+    "authors": [
+      "Zhen Yan",
+      "Yuanliang Chen",
+      "Fuchen Ma",
+      "Zehong Yu",
+      "Dalong Shi",
+      "Yu Jiang"
+    ]
+  },
+  {
+    "title": "When Lifetimes Liberate: A Type System for Arenas with Higher-Order Reachability Tracking",
+    "authors": [
+      "Siyuan He",
+      "Songlin Jia",
+      "Yuyan Bao",
+      "Tiark Rompf"
+    ]
+  },
+  {
+    "title": "When Specifications Meet Reality: Uncovering API Inconsistencies in Ethereum Infrastructure",
+    "authors": [
+      "Jie Ma",
+      "Ningyu He",
+      "Jinwen Xi",
+      "Mingzhe Xing",
+      "Liangxin Liu",
+      "luojiushenzi ",
+      "Xiaopeng Fu",
+      "Chiachih Wu",
+      "Haoyu Wang",
+      "Ying Gao",
+      "Yinliang Yue"
+    ]
+  }
+]

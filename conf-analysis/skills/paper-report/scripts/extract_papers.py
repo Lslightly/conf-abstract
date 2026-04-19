@@ -10,10 +10,10 @@ from typing import List, Optional
 
 class PaperMetadata(BaseModel):
     title: str = Field(..., description="The title of the academic paper.")
-    authors: List[str] = Field(default_factory=list, description="List of authors of the paper.")
+    authors: Optional[str] = Field(None, description="The authors of the paper.")
+    affiliations: Optional[str] = Field(None, description="The affiliations of the authors.")
     abstract: Optional[str] = Field(None, description="The abstract or a short summary of the paper.")
-    venue: Optional[str] = Field(None, description="The conference or journal where the paper was published.")
-    year: Optional[int] = Field(None, description="The publication year.")
+    publication_details: Optional[str] = Field(None, description="Publication details like venue, date, etc.")
     pdf_url: Optional[str] = Field(None, description="Link to the PDF version of the paper.")
 
 class PaperList(BaseModel):
@@ -29,11 +29,13 @@ async def extract_papers(url, output_file):
     # JsonCssExtractionStrategy requires a schema that maps CSS selectors to fields.
     schema = {
         "name": "Paper List",
-        "baseSelector": ".paper, .publication, li, tr", # Common paper containers
+        "baseSelector": ".paper, .publication, li, tr, .paper-item", # Common paper containers
         "fields": [
-            {"name": "title", "selector": "h3, .title, strong", "type": "text"},
-            {"name": "authors", "selector": ".authors, .author", "type": "text"},
-            {"name": "abstract", "selector": ".abstract", "type": "text"},
+            {"name": "title", "selector": "h3, .title, strong, .paper-title", "type": "text"},
+            {"name": "authors", "selector": ".authors, .author, .paper-authors", "type": "text"},
+            {"name": "affiliations", "selector": ".affiliations, .affiliation, .paper-affiliations", "type": "text"},
+            {"name": "abstract", "selector": ".abstract, .paper-abstract", "type": "text"},
+            {"name": "publication_details", "selector": ".venue, .publication, .paper-venue", "type": "text"},
             {"name": "pdf_url", "selector": "a[href$='.pdf']", "type": "attribute", "attribute": "href"}
         ]
     }
@@ -41,14 +43,30 @@ async def extract_papers(url, output_file):
     extraction_strategy = JsonCssExtractionStrategy(schema, verbose=True)
 
     async with AsyncWebCrawler(verbose=True) as crawler:
-        result = await crawler.arun(
-            url=url,
-            extraction_strategy=extraction_strategy,
-            bypass_cache=True
-        )
+        # Retry logic for network instability
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                result = await crawler.arun(
+                    url=url,
+                    extraction_strategy=extraction_strategy,
+                    bypass_cache=True,
+                    # Add browser-like headers to bypass simple bot detection
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    wait_for="body"
+                )
+                if result.success:
+                    break
+                print(f"Attempt {attempt + 1} failed: {result.error_message}")
+                if attempt < max_retries - 1:
+                    await asyncio.sleep(2) # Wait before retry
+            except Exception as e:
+                print(f"Attempt {attempt + 1} crashed: {e}")
+                if attempt < max_retries - 1:
+                    await asyncio.sleep(2)
         
         if not result.success:
-            print(f"Failed to crawl {url}: {result.error_message}")
+            print(f"Failed to crawl {url} after {max_retries} attempts.")
             return
         
         # Get the extracted structured data

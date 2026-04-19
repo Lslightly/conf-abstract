@@ -11,23 +11,27 @@ This skill processes multiple academic papers from a conference webpage URL to g
 ## Parameters
 
 - **$ARGUMENTS** – The conference webpage URL (required)
+- **Conference Folder** – Conference-specific folder path (e.g., `OOPSLA26`), used to store generated scripts and conference data.
 
 ## Workflow
 
-### Step 1: Paper List and Metadata Extraction
+### Step 1: Paper List and Metadata Extraction (Meta-process)
 
-Use the [extract_papers.py](scripts/extract_papers.py) script to crawl the conference page and generate a structured paper list:
+Since conference webpage formats vary significantly, this step uses a flexible meta-process rather than a fixed script:
 
-1. **Automated Crawling**:
-   - Run `python3 scripts/extract_papers.py [URL]` to crawl the conference page.
-   - The script uses **Crawl4AI** to convert the page into structured Markdown and an initial `papers.json`.
+1. **Web Content Retrieval**:
+   - Retrieve the conference webpage content using any suitable method (e.g., **curl**, **Crawl4AI**, or browser "Save as").
+   - The goal is to obtain the raw HTML or a structured Markdown version to understand the page's structure and identify paper containers.
 
-2. **Metadata Refinement**:
-   - Review the generated `papers.json` and the accompanying `.md` file.
+2. **Custom Extraction Script Generation**:
+   - Based on the retrieved content and its structure, use a sub-agent (or Claude's coding capabilities) to generate a Python extraction script (e.g., `extract_papers_custom.py`) within the specified **Conference Folder**.
+
+3. **Batch Processing and Generation**:
+   - Run the generated custom script to extract paper metadata in batch.
+   - The script should generate a `papers.json` following the template [./template/papers.json](./template/papers.json).
    - Extract and verify for each paper: Title, authors, affiliations, abstract, and publication details.
-   - Ensure `papers.json` follows the template [./template/papers.json](./template/papers.json).
 
-**Tools to use**: [extract_papers.py](scripts/extract_papers.py), `python3`
+**Tools**: `curl`, `Crawl4AI`, `Sub-agent (Script Generation)`, `python3`
 
 ### Step 2: Paper Content Understanding and PDF Retrieval
 
@@ -63,15 +67,15 @@ To save tokens and improve efficiency when processing multiple papers:
 
 ### Step 4: Subject Background and Classic Papers (Optional)
 
-Identify foundational content and seminal papers to help readers build a solid understanding of the research topics:
+Identify foundational content and seminal papers to help readers build a solid understanding of the research topics. **When generating this section of the report, you are required to include as many relevant links as possible (e.g., links to DBLP, Google Scholar, Semantic Scholar, official paper PDFs, and author profiles).**
 
 1. **Foundational Knowledge Extraction**:
    - Use search engines (Tavily/Exa) to find "survey", "tutorial", or "introduction" papers related to the conference themes.
-   - Summarize the core concepts and historical development of the main research directions.
+   - Summarize the core concepts and historical development of the main research directions, providing links to key survey papers.
 
 2. **Classic Paper Identification**:
    - Search for papers with exceptionally high citation counts (seminal works) in the relevant fields.
-   - List 3-5 classic papers that are essential for beginners to understand the current research context.
+   - List 3-5 classic papers that are essential for beginners to understand the current research context, ensuring each paper has a direct link to its source or metadata page.
 
 **Tools to use**: `mcp__tavily__tavily_search`, `mcp__exa__web_search_exa`, `mcp-academic__search_papers`
 
@@ -91,7 +95,7 @@ Analyze the broader impact and connections between papers to uncover research tr
 
 ## Output Report Structure
 
-Generate a markdown report using template [template/summary.md](template/summary.md)
+Generate a markdown report using template [template/summary.md](template/summary.md). **Crucially, the report should be rich in external links, providing direct access to papers, bibliographies, author profiles, and relevant academic databases for every piece of information presented.**
 
 ## Tips for Varied Conference Pages
 
