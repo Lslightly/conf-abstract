@@ -1,0 +1,1819 @@
+[
+  {
+    "title": "A Deductive System for Contract Satisfaction Proofs",
+    "authors": [
+      "Arthur Correnson",
+      "Haoyi Zeng",
+      "Jana Hofmann"
+    ],
+    "affiliations": [
+      "CISPA Helmholtz Center for Information Security",
+      "Harvard University",
+      "MPI-SP"
+    ]
+  },
+  {
+    "title": "A Mechanized Algebra of Verified Data Structures for Optimizing Sparse Tensor Programs",
+    "authors": [
+      "Amanda Liu",
+      "Gilbert Louis Bernstein",
+      "Shoaib Kamil",
+      "Adam Chlipala",
+      "Jonathan Ragan-Kelley"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "University of Washington",
+      "Adobe",
+      "Massachusetts Institute of Technology",
+      "Massachusetts Institute of Technology"
+    ]
+  },
+  {
+    "title": "Iris-WasmFX: Modular Reasoning for Wasm Stack Switching",
+    "authors": [
+      "Maxime Legoupil",
+      "Mathias Pedersen",
+      "Lars Birkedal",
+      "Sam Lindley",
+      "Jean Pichon-Pharabod"
+    ],
+    "affiliations": [
+      "Nanyang Technological University",
+      "Aarhus University",
+      "Aarhus University",
+      "University of Edinburgh",
+      "Aarhus University"
+    ]
+  },
+  {
+    "title": "Code-Specify-Test-Debug-Prove: Flexibly Integrating Separation Logic Specification into Conventional Workflows",
+    "authors": [
+      "Zain K Aamer",
+      "Rini Banerjee",
+      "Hiroyuki Katsura",
+      "David Kaloper-Meršinjak",
+      "Dimitrios J. Economou",
+      "Kayvan Memarian",
+      "Dhruv Makwana",
+      "Neel Krishnaswami",
+      "Benjamin C. Pierce",
+      "Christopher Pulte",
+      "Peter Sewell"
+    ],
+    "affiliations": [
+      "University of Pennsylvania",
+      "University of Cambridge",
+      "University of Cambridge",
+      "University of Cambridge",
+      "University of Cambridge",
+      "University of Cambridge",
+      "University of Cambridge",
+      "University of Cambridge",
+      "University of Pennsylvania",
+      "University of Oxford",
+      "University of Cambridge"
+    ]
+  },
+  {
+    "title": "Cerisier: A Program Logic for Attestation in a Capability Machine",
+    "authors": [
+      "June Rousseau",
+      "Denis Carnier",
+      "Thomas Van Strydonck",
+      "Steven Keuchel",
+      "Dominique Devriese",
+      "Lars Birkedal"
+    ],
+    "affiliations": [
+      "Aarhus University",
+      "KU Leuven",
+      "Fortanix",
+      "KU Leuven",
+      "KU Leuven",
+      "Aarhus University"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Counterexample-Guided Inference of Modular Specifications",
+    "authors": [
+      "William Hallahan",
+      "Ranjit Jhala",
+      "Ruzica Piskac"
+    ],
+    "affiliations": [
+      "Binghamton",
+      "University of California at San Diego",
+      "Yale University"
+    ]
+  },
+  {
+    "title": "Choose, Don’t Label: Multiple-Choice Query Synthesis for Program Disambiguation",
+    "authors": [
+      "Celeste Barnaby",
+      "Danny Ding",
+      "Osbert Bastani",
+      "Işıl Dillig"
+    ],
+    "affiliations": [
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Pennsylvania",
+      "University of Texas at Austin"
+    ]
+  },
+  {
+    "title": "Presynthesis: Towards Scaling Up Program Synthesis with Finer-Grained Abstract Semantics",
+    "authors": [
+      "Rui Dong",
+      "Qingyue Wu",
+      "Danny Ding",
+      "Zheng Guo",
+      "Ruyi Ji",
+      "Xinyu Wang"
+    ],
+    "affiliations": [
+      "University of Michigan",
+      "University of Michigan",
+      "University of Texas at Austin",
+      "University of Michigan",
+      "University of Michigan",
+      "University of Michigan"
+    ]
+  },
+  {
+    "title": "Verification Modulo Tested Library Contracts",
+    "authors": [
+      "Abhishek Uppar",
+      "Omar Muhammad",
+      "Sumanth Prabhu S",
+      "Deepak D'Souza",
+      "P. Madhusudan",
+      "Adithya Murali"
+    ],
+    "affiliations": [
+      "IISc Bangalore",
+      "IISc Bangalore",
+      "Relyance AI",
+      "IISc Bangalore",
+      "University of Illinois Urbana-Champaign",
+      "University of Wisconsin-Madison"
+    ]
+  },
+  {
+    "title": "Expecto: Extracting Formal Specifications from Natural Language Description for Trustworthy Oracles",
+    "authors": [
+      "Dongjae Lee",
+      "Kihong Heo"
+    ],
+    "affiliations": [
+      "KAIST",
+      "KAIST"
+    ]
+  },
+  {
+    "title": "Verification of Recursively Defined Quantum Circuits",
+    "authors": [
+      "Mingsheng Ying",
+      "Zhicheng Zhang"
+    ],
+    "affiliations": [
+      "University of Technology Sydney",
+      "University of Technology Sydney"
+    ]
+  },
+  {
+    "title": "SAQR-QC: A Logic for Scalable but Approximate Quantitative Reasoning about Quantum Circuits",
+    "authors": [
+      "Nengkun Yu",
+      "Jens Palsberg",
+      "Thomas Reps"
+    ],
+    "affiliations": [
+      "Stony Brook University",
+      "University of California at Los Angeles",
+      "University of Wisconsin-Madison"
+    ]
+  },
+  {
+    "title": "Hybrid Path-Sums for Hybrid Quantum Programs",
+    "authors": [
+      "Christopĥe Chareton",
+      "Sébastien Bardin",
+      "Jad Issa",
+      "Mathieu Nguyen",
+      "Nicolas Blanco"
+    ],
+    "affiliations": [
+      "CEA List - Université Paris-Saclay",
+      "CEA List - Université Paris-Saclay",
+      "CEA List - Université Paris-Saclay",
+      "CEA List - Université Paris-Saclay",
+      "CEA List - Université Paris-Saclay"
+    ]
+  },
+  {
+    "title": "[TOPLAS] VyZX: Formal Verification of a Graphical Quantum Language",
+    "authors": [
+      "Adrian Lehmann",
+      "Ben Caldwell",
+      "Bhakti Shah",
+      "William Spencer",
+      "Robert Rand"
+    ],
+    "affiliations": [
+      "University of Chicago",
+      "University of Chicago",
+      "University of Chicago"
+    ]
+  },
+  {
+    "title": "Cobble: Compiling Block Encodings for Quantum Computational Linear Algebra",
+    "authors": [
+      "Charles Yuan"
+    ],
+    "affiliations": [
+      "University of Wisconsin-Madison"
+    ]
+  },
+  {
+    "title": "A Formally Verified Foundation for Compositional Heterogeneous Coherence",
+    "authors": [
+      "An Qi Zhang",
+      "Andrés Goens",
+      "Daniel Sorin",
+      "Vijay Nagarajan"
+    ],
+    "affiliations": [
+      "University of Utah",
+      "TU Darmstadt",
+      "Duke University",
+      "University of Utah"
+    ]
+  },
+  {
+    "title": "MatchBox: A Semantic Foundation for Data Plane Portability",
+    "authors": [
+      "Eric Hayden Campbell",
+      "Robert Zhang",
+      "Divyanshu Saxena",
+      "Aditya Akella",
+      "Işıl Dillig"
+    ],
+    "affiliations": [
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin"
+    ]
+  },
+  {
+    "title": "SureDistrib: Verifying Almost-Sure Termination of Composite Asynchronous Byzantine Protocols",
+    "authors": [
+      "Longfei Qiu",
+      "Jingqi Xiao",
+      "Ji-Yong Shin",
+      "Zhong Shao"
+    ],
+    "affiliations": [
+      "Yale University",
+      "University of Hong Kong",
+      "Northeastern University",
+      "Yale University"
+    ]
+  },
+  {
+    "title": "Implementability of Global Distributed Protocols Modulo Network Architectures",
+    "authors": [
+      "Elaine Li",
+      "Thomas Wies"
+    ],
+    "affiliations": [
+      "New York University",
+      "New York University"
+    ]
+  },
+  {
+    "title": "Weighted NetKAT: A Programming Language For Quantitative Network Verification",
+    "authors": [
+      "Emmanuel Suárez Acevedo",
+      "Tiago Ferreira",
+      "Kevin Batz",
+      "Oliver Emil Bøving",
+      "Nate Foster",
+      "Alexandra Silva"
+    ],
+    "affiliations": [
+      "Cornell University",
+      "University College London",
+      "Cornell University",
+      "Technical University of Denmark",
+      "EPFL; Jane Street",
+      "Cornell University"
+    ]
+  },
+  {
+    "title": "State Space Estimation for DPOR-Based Model Checkers",
+    "authors": [
+      "A. R. Balasubramanian",
+      "Mohammad Hossein Khoshechin Jorshari",
+      "Rupak Majumdar",
+      "Umang Mathur",
+      "Minjian Zhang"
+    ],
+    "affiliations": [
+      "MPI-SWS",
+      "MPI-SWS",
+      "MPI-SWS",
+      "National University of Singapore",
+      "University of Illinois Urbana-Champaign"
+    ]
+  },
+  {
+    "title": "Fixed Parameter Tractable Linearizability Monitoring",
+    "authors": [
+      "Zheng Han Lee",
+      "Umang Mathur"
+    ],
+    "affiliations": [
+      "National University of Singapore",
+      "National University of Singapore"
+    ]
+  },
+  {
+    "title": "SuperCollider: Scalable and Effective Data Race Detection for CUDA",
+    "authors": [
+      "Mark Stephenson",
+      "Sana Damani",
+      "Mohamed Tarek Ibn Ziad",
+      "Anis Ladram",
+      "Michael Garland"
+    ],
+    "affiliations": [
+      "NVIDIA",
+      "NVIDIA",
+      "NVIDIA",
+      "NVIDIA",
+      "NVIDIA"
+    ]
+  },
+  {
+    "title": "Fast Atomicity Monitoring",
+    "authors": [
+      "Hünkar Can Tunç",
+      "Yifan Dong",
+      "Andreas Pavlogiannis"
+    ],
+    "affiliations": [
+      "Uber",
+      "Aarhus University",
+      "Aarhus University"
+    ]
+  },
+  {
+    "title": "Flow-Analysis-Based Closure Optimization",
+    "authors": [
+      "John Reppy",
+      "Olin Shivers",
+      "Byron Zhong"
+    ],
+    "affiliations": [
+      "University of Chicago",
+      "Northeastern University",
+      "University of Chicago"
+    ]
+  },
+  {
+    "title": "SSA without Dominance for Higher-Order Programs",
+    "authors": [
+      "Roland Leißa",
+      "Johannes Griebler"
+    ],
+    "affiliations": [
+      "University of Göttingen",
+      "University of Göttingen"
+    ]
+  },
+  {
+    "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+    "authors": [
+      "Huan Nguyen",
+      "Soumyakant Priyadarshan",
+      "Chencheng Jiang",
+      "R. Sekar"
+    ],
+    "affiliations": [
+      "Google",
+      "Stony Brook University",
+      "Stony Brook University",
+      "Stony Brook University"
+    ]
+  },
+  {
+    "title": "Exploiting Sophisticated Static Analysis for Verilog",
+    "authors": [
+      "Qinlin Chen",
+      "Nairen Zhang",
+      "Jinpeng Wang",
+      "Jiacai Cui",
+      "Tian Tan",
+      "Xiaoxing Ma",
+      "Chang Xu",
+      "Jian Lu",
+      "Yue Li"
+    ],
+    "affiliations": [
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University"
+    ]
+  },
+  {
+    "title": "Bridging Coverage and Confidence: Reliable Static False Alarm Elimination via Input-Agnosticity",
+    "authors": [
+      "Jiayi Wang",
+      "Yu Wang",
+      "Linzhang Wang",
+      "Ke Wang"
+    ],
+    "affiliations": [
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University",
+      "Nanjing University"
+    ]
+  },
+  {
+    "title": "Path-Sensitive Abstract Interpretation for WCET Estimation",
+    "authors": [
+      "Shangshang Xiao",
+      "Mengxia Sun",
+      "Wei Zhang",
+      "Naijun Zhan",
+      "Lei Ju"
+    ],
+    "affiliations": [
+      "Shandong University",
+      "Shandong University",
+      "Shandong University",
+      "Peking University; Zhongguancun Laboratory",
+      "Shandong University"
+    ]
+  },
+  {
+    "title": "SAIL: Sound Abstract Interpreters with LLMs",
+    "authors": [
+      "Qiuhan Gu",
+      "Avaljot Singh",
+      "Gagandeep Singh"
+    ],
+    "affiliations": [
+      "University of Illinois Urbana-Champaign",
+      "University of Illinois Urbana-Champaign",
+      "University of Illinois Urbana-Champaign"
+    ]
+  },
+  {
+    "title": "Evolving Abstract Transformers for Gradient-Guided, Adaptable Abstract Interpretation",
+    "authors": [
+      "Shaurya Gomber",
+      "Debangshu Banerjee",
+      "Gagandeep Singh"
+    ],
+    "affiliations": [
+      "University of Illinois Urbana-Champaign",
+      "University of Illinois Urbana-Champaign",
+      "University of Illinois Urbana-Champaign"
+    ]
+  },
+  {
+    "title": "Abstract Interpretation with Confidence",
+    "authors": [
+      "Yuanfeng Shi",
+      "Ziyue Jin",
+      "Xin Zhang"
+    ],
+    "affiliations": [
+      "Peking University",
+      "Peking University",
+      "Peking University"
+    ]
+  },
+  {
+    "title": "Optimism in Equality Saturation",
+    "authors": [
+      "Russel Arbore",
+      "Alvin Cheung",
+      "Max Willsey"
+    ],
+    "affiliations": [
+      "University of California at Berkeley",
+      "University of California at Berkeley",
+      "University of California at Berkeley"
+    ]
+  },
+  {
+    "title": "Kuiper: Correct and Efficient GPU Programming with Dependent Types and Separation Logic",
+    "authors": [
+      "Guido Martínez",
+      "Bastian Köpcke",
+      "Jonáš Fiala",
+      "Gabriel Ebner",
+      "Tahina Ramananandro",
+      "Michel Steuwer",
+      "Tyler Sorensen",
+      "Nikhil Swamy"
+    ],
+    "affiliations": [
+      "Microsoft Research",
+      "TU Berlin",
+      "ETH Zurich",
+      "Microsoft Research",
+      "Microsoft Research",
+      "TU Berlin",
+      "Microsoft Research",
+      "Microsoft Research"
+    ]
+  },
+  {
+    "title": "Modular GPU Programming with Typed Perspectives",
+    "authors": [
+      "Manya Bansal",
+      "Daniel Sainati",
+      "Joseph W. Cutler",
+      "Saman Amarasinghe",
+      "Jonathan Ragan-Kelley"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "University of Pennsylvania",
+      "University of Pennsylvania",
+      "Massachusetts Institute of Technology",
+      "Massachusetts Institute of Technology"
+    ]
+  },
+  {
+    "title": "[TOPLAS] StreamAlloc: A Framework for Analyzing and Transforming CUDA Code to Enable Asynchronous Execution",
+    "authors": [
+      "Soumik Kumar Basu",
+      "Jyothi Vedurada"
+    ],
+    "affiliations": [
+      "IIT Hyderabad",
+      "IIT Hyderabad"
+    ]
+  },
+  {
+    "title": "SIMT-Step Execution: A Flexible Operational Semantics For GPU Subgroup Behavior",
+    "authors": [
+      "Zheyuan Chen",
+      "Naomi Rehman",
+      "Guido Martínez",
+      "Tyler Sorensen"
+    ],
+    "affiliations": [
+      "University of California at Santa Cruz",
+      "University of California at Santa Barbara",
+      "Microsoft Research",
+      "Microsoft Research; University of California at Santa Cruz"
+    ]
+  },
+  {
+    "title": "Uniformity Analysis in the WebGPU Shading Language",
+    "authors": [
+      "James Lee-Jones",
+      "John Wickerson",
+      "Alastair F. Donaldson"
+    ],
+    "affiliations": [
+      "Imperial College London",
+      "Imperial College London",
+      "Imperial College London"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Probabilistic Refinement Session Types",
+    "authors": [
+      "Qiancheng Fu",
+      "Ankush Das",
+      "Marco Gaboardi"
+    ],
+    "affiliations": [
+      "Boston University",
+      "Boston University",
+      "Boston University"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Complete the Cycle: Reachability Types with Expressive Cyclic References",
+    "authors": [
+      "Haotian Deng",
+      "Siyuan He",
+      "Songlin Jia",
+      "Yuyan Bao",
+      "Tiark Rompf"
+    ],
+    "affiliations": [
+      "Purdue University",
+      "Purdue University",
+      "Purdue University",
+      "Augusta University",
+      "Purdue University"
+    ]
+  },
+  {
+    "title": "Backwards-Compatible Row-Based Exceptions in ML",
+    "authors": [
+      "Simcha van Collem",
+      "Paulo Emílio de Vilhena",
+      "Robbert Krebbers"
+    ],
+    "affiliations": [
+      "Radboud University Nijmegen",
+      "Imperial College London",
+      "Radboud University Nijmegen"
+    ]
+  },
+  {
+    "title": "Typestate via Revocable Capabilities",
+    "authors": [
+      "Songlin Jia",
+      "Craig Liu",
+      "Siyuan He",
+      "Haotian Deng",
+      "Yuyan Bao",
+      "Tiark Rompf"
+    ],
+    "affiliations": [
+      "Purdue University",
+      "Purdue University",
+      "Purdue University",
+      "Purdue University",
+      "Augusta University",
+      "Purdue University"
+    ]
+  },
+  {
+    "title": "Syntactic Implicit Parameters with Static Overloading",
+    "authors": [
+      "Daan Leijen",
+      "Tim Whiting"
+    ],
+    "affiliations": [
+      "Microsoft Research",
+      "Brigham Young University"
+    ]
+  },
+  {
+    "title": "Hardening the Foundation: Testing Data and Compute-Intensive AI-Enabling Stacks",
+    "authors": [
+      "Miryung Kim"
+    ],
+    "affiliations": [
+      "UCLA and Amazon Web Services"
+    ]
+  },
+  {
+    "title": "Solvable Tuple Patterns and Their Applications to Program Verification",
+    "authors": [
+      "Naoki Kobayashi",
+      "Ryosuke Sato",
+      "Ayumi Shinohara",
+      "Ryo Yoshinaka"
+    ],
+    "affiliations": [
+      "University of Tokyo",
+      "Tokyo University of Agriculture and Technology",
+      "Tohoku University",
+      "Tohoku University"
+    ]
+  },
+  {
+    "title": "Towards Efficient Matching of Regexes with Backreferences using Register Set Automata",
+    "authors": [
+      "Vojtěch Havlena",
+      "Lukáš Holík",
+      "Ondřej Lengál",
+      "Jan Vašák",
+      "Sabína Gulčíková"
+    ],
+    "affiliations": [
+      "Brno University of Technology",
+      "Brno University of Technology; Aalborg University",
+      "Brno University of Technology",
+      "Brno University of Technology",
+      "Brno University of Technology"
+    ]
+  },
+  {
+    "title": "An Efficient Algorithm for Streaming BPE Tokenization",
+    "authors": [
+      "Konstantinos Mamouras",
+      "Angela W. Li",
+      "Yudi Yang"
+    ],
+    "affiliations": [
+      "Rice University",
+      "Rice University",
+      "Rice University"
+    ]
+  },
+  {
+    "title": "Scalable Floating-Point Satisfiability via Staged Optimization",
+    "authors": [
+      "Yuanzhuo Zhang",
+      "Zhoulai Fu",
+      "Binoy Ravindran"
+    ],
+    "affiliations": [
+      "Virginia Tech",
+      "SUNY Korea; Virginia Tech; Stony Brook University",
+      "Virginia Tech"
+    ]
+  },
+  {
+    "title": "EREQ: Regular Expressions with Quantifiers and Incremental Quantifier Elimination",
+    "authors": [
+      "Ekaterina Zhuchko",
+      "Ian Erik Varatalu",
+      "Margus Veanes",
+      "Nikolaj Bjørner"
+    ],
+    "affiliations": [
+      "Tallinn University of Technology",
+      "Tallinn University of Technology",
+      "Microsoft Research",
+      "Microsoft Research"
+    ]
+  },
+  {
+    "title": "Decoupling Data Layouts from Bounding Volume Hierarchies",
+    "authors": [
+      "Christophe Gyurgyik",
+      "Alexander J Root",
+      "Fredrik Kjolstad"
+    ],
+    "affiliations": [
+      "Stanford University",
+      "Stanford University",
+      "Stanford University"
+    ]
+  },
+  {
+    "title": "Contextual Embeddings: Implementing Bound Variables through Instance Resolution",
+    "authors": [
+      "Samantha Frohlich",
+      "Jessica Foster",
+      "Alex Kavvos",
+      "Meng Wang"
+    ],
+    "affiliations": [
+      "University of Bristol",
+      "University of Bristol",
+      "University of Bristol",
+      "University of Bristol"
+    ]
+  },
+  {
+    "title": "CoTenN: Constrained Optimization with Tensor Networks",
+    "authors": [
+      "Ritvik Sharma",
+      "Cheng Peng",
+      "Siddharth Dangwal",
+      "Sara Achour"
+    ],
+    "affiliations": [
+      "Stanford University",
+      "Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory",
+      "University of Chicago",
+      "Stanford University"
+    ]
+  },
+  {
+    "title": "Diagramming Program Values by Spatial Refinement",
+    "authors": [
+      "Siddhartha Prasad",
+      "Michael Tu",
+      "Karan Kashyap",
+      "Tim Nelson",
+      "Shriram Krishnamurthi"
+    ],
+    "affiliations": [
+      "Brown University",
+      "Brown University",
+      "Brown University",
+      "Brown University",
+      "Brown University"
+    ]
+  },
+  {
+    "title": "Persistent Iterators with Value Semantics",
+    "authors": [
+      "Yihe Li",
+      "Gregory J. Duck"
+    ],
+    "affiliations": [
+      "National University of Singapore",
+      "National University of Singapore"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Scalable and Accurate Application-Level Crash-Consistency Testing via Representative Testing",
+    "authors": [
+      "Yile Gu",
+      "Ian Neal",
+      "Jiexiao Xu",
+      "Shaun Christopher Lee",
+      "Ayman Said",
+      "Musa Haydar",
+      "Jacob Van Geffen",
+      "Andrew Quinn",
+      "Baris Kasikci"
+    ],
+    "affiliations": [
+      "University of Washington",
+      "University of Michigan and Veridise",
+      "University of Washington",
+      "University of Washington",
+      "University of Michigan",
+      "University of Michigan",
+      "University of California at Santa Cruz",
+      "University of Washington"
+    ]
+  },
+  {
+    "title": "Trace-Guided Synthesis of Effectful Test Generators",
+    "authors": [
+      "Zhe Zhou",
+      "Ankush Desai",
+      "Benjamin Delaware",
+      "Suresh Jagannathan"
+    ],
+    "affiliations": [
+      "Purdue University",
+      "Snowflake",
+      "Purdue University",
+      "Purdue University"
+    ]
+  },
+  {
+    "title": "Semantic Reification: A New Paradigm for Random Program Generation",
+    "authors": [
+      "Kavya Chopra",
+      "Cong Li",
+      "Thodoris Sotiropoulos",
+      "Zhendong Su"
+    ],
+    "affiliations": [
+      "ETH Zurich",
+      "ETH Zurich",
+      "ETH Zurich",
+      "ETH Zurich"
+    ]
+  },
+  {
+    "title": "The Search for Constrained Random Generators",
+    "authors": [
+      "Harrison Goldstein",
+      "Hila Peleg",
+      "Cassia Torczon",
+      "Daniel Sainati",
+      "Leonidas Lampropoulos",
+      "Benjamin C. Pierce"
+    ],
+    "affiliations": [
+      "SUNY Buffalo",
+      "Technion",
+      "University of Pennsylvania",
+      "University of Pennsylvania",
+      "University of Maryland at College Park",
+      "University of Pennsylvania"
+    ]
+  },
+  {
+    "title": "Towards Removing Undef Values from LLVM IR",
+    "authors": [
+      "Pedro Lobo",
+      "John McIver",
+      "George Mitenkov",
+      "Juneyoung Lee",
+      "Kirshanthan Sundararajah",
+      "Nuno P. Lopes"
+    ],
+    "affiliations": [
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon",
+      "Virginia Tech",
+      "Aptos",
+      "AWS",
+      "Virginia Tech",
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon"
+    ]
+  },
+  {
+    "title": "The Downgrading Semantics of Memory Safety",
+    "authors": [
+      "René Rydhof Hansen",
+      "Andreas Stenbæk Larsen",
+      "Aslan Askarov"
+    ],
+    "affiliations": [
+      "Aalborg University",
+      "Aarhus University",
+      "Aarhus University"
+    ]
+  },
+  {
+    "title": "Causality and Semantic Separation",
+    "authors": [
+      "Anna Zhang",
+      "Qinglan Luo",
+      "London Bielicke",
+      "Eunice Jun",
+      "Adam Chlipala"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "Wellesley College; Massachusetts Institute of Technology",
+      "University of California at Los Angeles",
+      "University of California at Los Angeles",
+      "Massachusetts Institute of Technology"
+    ]
+  },
+  {
+    "title": "Hyper Separation Logic",
+    "authors": [
+      "Trayan Gospodinov",
+      "Peter Müller",
+      "Thibault Dardinier"
+    ],
+    "affiliations": [
+      "INSAIT at Sofia University St. Kliment Ohridski",
+      "ETH Zurich",
+      "EPFL"
+    ]
+  },
+  {
+    "title": "Pantomime: Constructive Leakage Proofs via Simulation",
+    "authors": [
+      "Robin Webbers",
+      "Robert Schenck",
+      "Wind Wong",
+      "Kristina Sojakova",
+      "Klaus von Gleissenthall"
+    ],
+    "affiliations": [
+      "Vrije Universiteit Amsterdam",
+      "Northeastern University",
+      "Vrije Universiteit Amsterdam",
+      "Vrije Universiteit Amsterdam",
+      "Vrije Universiteit Amsterdam"
+    ]
+  },
+  {
+    "title": "Contextual Refinement of Higher-Order Concurrent Probabilistic Programs",
+    "authors": [
+      "Kwing Hei Li",
+      "Alejandro Aguirre",
+      "Joseph Tassarotti",
+      "Lars Birkedal"
+    ],
+    "affiliations": [
+      "Aarhus University",
+      "Aarhus University",
+      "New York University",
+      "Aarhus University"
+    ]
+  },
+  {
+    "title": "Supermartingales for Unique Fixed Points: A Unified Approach to Lower Bound Verification",
+    "authors": [
+      "Satoshi Kura",
+      "Hiroshi Unno",
+      "Takeshi Tsukada"
+    ],
+    "affiliations": [
+      "Waseda University",
+      "Tohoku University",
+      "Chiba University"
+    ]
+  },
+  {
+    "title": "SuperDP: Differential Privacy Refutation via Supermartingales",
+    "authors": [
+      "Krishnendu Chatterjee",
+      "Ehsan Kafshdar Goharshady",
+      "Đorđe Žikelić"
+    ],
+    "affiliations": [
+      "IST Austria",
+      "IST Austria",
+      "Singapore Management University"
+    ]
+  },
+  {
+    "title": "Modular Verification of Differential Privacy in Probabilistic Higher-Order Separation Logic",
+    "authors": [
+      "Philipp G. Haselwarter",
+      "Alejandro Aguirre",
+      "Simon Oddershede Gregersen",
+      "Kwing Hei Li",
+      "Joseph Tassarotti",
+      "Lars Birkedal"
+    ],
+    "affiliations": [
+      "Aarhus University",
+      "Aarhus University",
+      "CISPA Helmholtz Center for Information Security",
+      "Aarhus University",
+      "New York University",
+      "Aarhus University"
+    ]
+  },
+  {
+    "title": "Versioned E-Graphs",
+    "authors": [
+      "Jahrim Gabriele Cesario",
+      "George Zakhour",
+      "Pascal Weisenburger",
+      "Guido Salvaneschi"
+    ],
+    "affiliations": [
+      "University of St. Gallen",
+      "University of St. Gallen",
+      "University of St. Gallen",
+      "University of St. Gallen"
+    ]
+  },
+  {
+    "title": "Improving Equality Saturation for EDA via Semantic E-Graphs",
+    "authors": [
+      "Sijie Kong",
+      "Jingtao Xia",
+      "Daniel Ruelas-Petrisko",
+      "Zachary D. Sisco",
+      "Jonathan Balkind",
+      "Gus Henry Smith"
+    ],
+    "affiliations": [
+      "University of California at Santa Barbara",
+      "University of California at Santa Barbara",
+      "University of Washington",
+      "Chinese University of Hong Kong",
+      "University of California at Santa Barbara",
+      "Southmountain Research"
+    ]
+  },
+  {
+    "title": "Equality Saturation for Quantum Circuit Optimization",
+    "authors": [
+      "Ganxiang Yang",
+      "Paige Raun",
+      "Runzhou Tao",
+      "Ronghui Gu"
+    ],
+    "affiliations": [
+      "Columbia University",
+      "University of Maryland",
+      "University of Maryland",
+      "Columbia University; CertiK"
+    ]
+  },
+  {
+    "title": "Fungible Memories for Automated Technology Mapping and Retargeting",
+    "authors": [
+      "Zachary D. Sisco",
+      "Sijie Kong",
+      "Daniel Ruelas-Petrisko",
+      "Jingtao Xia",
+      "Julian Springer",
+      "Varun Rao",
+      "Spencer Wang",
+      "Gus Henry Smith",
+      "Ben Hardekopf",
+      "Jonathan Balkind"
+    ],
+    "affiliations": [
+      "Chinese University of Hong Kong",
+      "University of California at Santa Barbara",
+      "University of Washington",
+      "University of California at Santa Barbara",
+      "TU Berlin",
+      "University of California at Berkeley",
+      "University of California at Santa Barbara",
+      "Southmountain Research",
+      "University of California at Santa Barbara",
+      "University of California at Santa Barbara"
+    ]
+  },
+  {
+    "title": "Redundant Array Computation Elimination",
+    "authors": [
+      "Zixuan Wang",
+      "Liang Yuan",
+      "Xianmeng Jiang",
+      "Kun Li",
+      "Junmin Xiao",
+      "Yunquan Zhang"
+    ],
+    "affiliations": [
+      "Institute of Computing Technology at Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences"
+    ]
+  },
+  {
+    "title": "The Rise &amp; Collapse of a Quantum State",
+    "authors": [
+      "Aws Albarghouthi"
+    ],
+    "affiliations": [
+      "University of Wisconsin-Madison"
+    ]
+  },
+  {
+    "title": "Verifying Array Properties in Pure Data-Parallel Programs",
+    "authors": [
+      "Nikolaj Hey Hinnerskov",
+      "Robert Schenck",
+      "Cosmin E. Oancea"
+    ],
+    "affiliations": [
+      "University of Copenhagen",
+      "Northeastern University",
+      "University of Copenhagen"
+    ]
+  },
+  {
+    "title": "Soteria: Efficient Symbolic Execution as a Functional Library",
+    "authors": [
+      "Sacha-Élie Ayoun",
+      "Opale Sjöstedt",
+      "Azalea Raad"
+    ],
+    "affiliations": [
+      "Imperial College London; Soteria Tools",
+      "Imperial College London; Soteria Tools",
+      "Imperial College London; Soteria Tools"
+    ]
+  },
+  {
+    "title": "A Categorical Basis for Robust Program Analysis",
+    "authors": [
+      "Zachary Kincaid",
+      "Shaowei Zhu"
+    ],
+    "affiliations": [
+      "Princeton University",
+      "Princeton University"
+    ]
+  },
+  {
+    "title": "Restart and Refine: Scalable IFDS Taint Analysis across Memory Budgets",
+    "authors": [
+      "Yujiang Gui",
+      "Yonggang Tao",
+      "Jingling Xue"
+    ],
+    "affiliations": [
+      "UNSW",
+      "UNSW",
+      "UNSW"
+    ]
+  },
+  {
+    "title": "Synthesizing Backward Error Bounds, Backward",
+    "authors": [
+      "Laura Zielinski",
+      "Justin Hsu"
+    ],
+    "affiliations": [
+      "Cornell University",
+      "Cornell University"
+    ]
+  },
+  {
+    "title": "Let It Flow: A Formally Verified Compilation Framework for Asynchronous Dataflow",
+    "authors": [
+      "Zhengyao Lin",
+      "Yi Cai",
+      "Milijana Surbatovich"
+    ],
+    "affiliations": [
+      "Carnegie Mellon University",
+      "University of Maryland at College Park",
+      "University of Maryland at College Park"
+    ]
+  },
+  {
+    "title": "Compiling to Recurrent Neurons",
+    "authors": [
+      "Joey Velez-Ginorio",
+      "Nada Amin",
+      "Konrad Kording",
+      "Steve Zdancewic"
+    ],
+    "affiliations": [
+      "University of Pennsylvania",
+      "Harvard University",
+      "University of Pennsylvania",
+      "University of Pennsylvania"
+    ]
+  },
+  {
+    "title": "[TOPLAS] Denotation-based Compositional Compiler Verification",
+    "authors": [
+      "Zhang Cheng",
+      "Jiyang Wu",
+      "Di Wang",
+      "Qinxiang Cao"
+    ],
+    "affiliations": [
+      "Shanghai Jiao Tong University",
+      "Peking University",
+      "Shanghai Jiao Tong University"
+    ]
+  },
+  {
+    "title": "Responsive Parallelism with Dynamic and First-Class Priorities",
+    "authors": [
+      "Marelle León",
+      "My Dinh",
+      "Stefan K. Muller"
+    ],
+    "affiliations": [
+      "Illinois Institute of Technology",
+      "Illinois Institute of Technology",
+      "University of Connecticut"
+    ]
+  },
+  {
+    "title": "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types",
+    "authors": [
+      "Songlin Jia",
+      "Guannan Wei",
+      "Siyuan He",
+      "Yuyan Bao",
+      "Tiark Rompf"
+    ],
+    "affiliations": [
+      "Purdue University",
+      "Tufts University",
+      "Purdue University",
+      "Augusta University",
+      "Purdue University"
+    ]
+  },
+  {
+    "title": "Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels",
+    "authors": [
+      "Abhinav Jangda"
+    ],
+    "affiliations": [
+      "Microsoft Research"
+    ]
+  },
+  {
+    "title": "Parameterized Algorithms and Complexity for Function Merging with Branch Reordering",
+    "authors": [
+      "Amir K. Goharshady",
+      "Kerim Kochekov",
+      "Tian Shu",
+      "Ahmed Khaled Zaher"
+    ],
+    "affiliations": [
+      "University of Oxford",
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology"
+    ]
+  },
+  {
+    "title": "NEURA: A Unified and Retargetable Compilation Framework for Coarse-Grained Reconfigurable Architectures",
+    "authors": [
+      "Shangkun Li",
+      "Jinming Ge",
+      "Diyuan Tao",
+      "Zeyu Li",
+      "Jiawei Liang",
+      "Linfeng Du",
+      "Jiang Xu",
+      "Wei Zhang",
+      "Cheng Tan"
+    ],
+    "affiliations": [
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology",
+      "Independent Researcher",
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology (Guangzhou)",
+      "Hong Kong University of Science and Technology",
+      "Google; Arizona State University"
+    ]
+  },
+  {
+    "title": "Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs",
+    "authors": [
+      "Yifan Zhao",
+      "Egan Johnson",
+      "Prasanth Chatarasi",
+      "Vikram S. Adve",
+      "Sasa Misailovic"
+    ],
+    "affiliations": [
+      "University of Illinois Urbana-Champaign",
+      "University of Illinois Urbana-Champaign",
+      "IBM Research",
+      "University of Illinois Urbana-Champaign",
+      "University of Illinois Urbana-Champaign"
+    ]
+  },
+  {
+    "title": "SparseZETA: Intelligent Auto-tuner for Designing High-Performance SpMV Programs",
+    "authors": [
+      "Zhen Du",
+      "Ying Liu",
+      "Xionghui Chen",
+      "Yanbo Zhao",
+      "Xiaobing Feng",
+      "Huimin Cui",
+      "Jiajia Li"
+    ],
+    "affiliations": [
+      "Institute of Computing Technology at Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+      "Nanjing University",
+      "North Carolina State University",
+      "Institute of Computing Technology at Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+      "Institute of Computing Technology at Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+      "North Carolina State University"
+    ]
+  },
+  {
+    "title": "Heterogeneous Dynamic Logic: Provability Modulo Program Theories",
+    "authors": [
+      "Samuel Teuber",
+      "Mattias Ulbrich",
+      "André Platzer",
+      "Bernhard Beckert"
+    ],
+    "affiliations": [
+      "KIT",
+      "KIT",
+      "KIT",
+      "KIT"
+    ]
+  },
+  {
+    "title": "Intrinsically Correct Algorithms and Recursive Coalgebras",
+    "authors": [
+      "Cass Alexandru",
+      "Henning Urbat",
+      "Thorsten Wißmann"
+    ],
+    "affiliations": [
+      "RPTU Kaiserslautern-Landau &amp; Radboud University Nijmegen",
+      "Friedrich-Alexander University Erlangen-Nürnberg",
+      "Friedrich-Alexander University Erlangen-Nürnberg"
+    ]
+  },
+  {
+    "title": "CRIS: The Power of Imagination in Hybrid Verification",
+    "authors": [
+      "Yonghee Kim",
+      "Taeyoung Yoon",
+      "Sanghyun Yi",
+      "Jaehyung Lee",
+      "Soonwon Moon",
+      "Yeji Han",
+      "Seonho Lee",
+      "Taeyoung Rhee",
+      "Yujin Im",
+      "Donghyun Nam",
+      "Jieung Kim",
+      "Chung-Kil Hur"
+    ],
+    "affiliations": [
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Seoul National University",
+      "Yonsei University",
+      "Seoul National University"
+    ]
+  },
+  {
+    "title": "Navigating AND–OR Graph Modifications to Debug Failing Proof Search",
+    "authors": [
+      "Justin Lubin",
+      "Marlena Preigh",
+      "Max Willsey",
+      "Sarah E. Chasins"
+    ],
+    "affiliations": [
+      "University of California at Berkeley",
+      "University of California at Berkeley",
+      "University of California at Berkeley",
+      "University of California at Berkeley"
+    ]
+  },
+  {
+    "title": "[TOPLAS] Project Everest: Perspectives from Developing Industrial-Grade High-Assurance Software",
+    "authors": [
+      "Danel Ahman",
+      "Karthikeyan Bhargavan",
+      "Barry Bond",
+      "Jay Bosamiya",
+      "Christopher Brzuska",
+      "Antoine Delignat-Lavaud",
+      "Cédric Fournet",
+      "Aymeric Fromherz",
+      "Sydney Gibson",
+      "Chris Hawblitzel",
+      "Cătălin Hriţcu",
+      "Markulf Kohlweiss",
+      "Guido Martínez",
+      "Haobin Ni",
+      "Bryan Parno",
+      "Jonathan Protzenko",
+      "Tahina Ramananandro",
+      "Aseem Rastogi",
+      "Exequiel Rivas",
+      "Nikhil Swamy",
+      "Santiago Zanella-Béguelin"
+    ],
+    "affiliations": [
+      "University of Tartu",
+      "Cryspen, France",
+      "Microsoft Research",
+      "Microsoft Research, n.n.",
+      "Microsoft Research",
+      "Inria",
+      "Microsoft Research",
+      "MPI-SP",
+      "Microsoft Research",
+      "University of Washington",
+      "Carnegie Mellon University",
+      "Microsoft Azure Research",
+      "Microsoft Research",
+      "Microsoft Research",
+      "Tallinn University of Technology",
+      "Microsoft Research",
+      "Microsoft Research, Cambridge"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Probabilistic Inference for Datalog with Correlated Inputs",
+    "authors": [
+      "Jingbo Wang",
+      "Shashin Halalingaiah",
+      "Weiyi Chen",
+      "Chao Wang",
+      "Işıl Dillig"
+    ],
+    "affiliations": [
+      "Purdue University",
+      "UT Austin, IIT Madras",
+      "Purdue University",
+      "University of Southern California",
+      "University of Texas at Austin"
+    ]
+  },
+  {
+    "title": "A Hierarchy of Supermartingales for ω-Regular Verification",
+    "authors": [
+      "Satoshi Kura",
+      "Hiroshi Unno"
+    ],
+    "affiliations": [
+      "Waseda University",
+      "Tohoku University"
+    ]
+  },
+  {
+    "title": "Incremental Computation for Efficient Programmable Inference in Probabilistic Programs",
+    "authors": [
+      "Fabian Zaiser",
+      "Jack Czenszak",
+      "Martin C. Rinard",
+      "Vikash K. Mansinghka",
+      "Alexander K. Lew"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "Yale University",
+      "Massachusetts Institute of Technology",
+      "Massachusetts Institute of Technology",
+      "Yale University"
+    ]
+  },
+  {
+    "title": "GradInf: Gradient Estimation as Probabilistic Inference",
+    "authors": [
+      "Gaurav Arya",
+      "Mathieu Huot",
+      "Moritz Schauer",
+      "Alexander K. Lew",
+      "Feras A. Saad"
+    ],
+    "affiliations": [
+      "Carnegie Mellon University",
+      "Massachusetts Institute of Technology",
+      "Chalmers University of Technology - University of Gothenburg",
+      "Yale University",
+      "Carnegie Mellon University"
+    ]
+  },
+  {
+    "title": "Categorical Semantics of Probabilistic Symbolic Execution",
+    "authors": [
+      "John Li",
+      "Jack Czenszak",
+      "Steven Holtzen"
+    ],
+    "affiliations": [
+      "Northeastern University",
+      "Yale University",
+      "Northeastern University"
+    ]
+  },
+  {
+    "title": "Cpp2Rust: Automatic Translation of C++ to Safe Rust",
+    "authors": [
+      "Lucian Popescu",
+      "Francisco Gouveia",
+      "Henrique Preto",
+      "João Silveira",
+      "Dmytro Hrybenko",
+      "José Fragoso Santos",
+      "Nuno P. Lopes"
+    ],
+    "affiliations": [
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon",
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon",
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon",
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon",
+      "Google",
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon",
+      "INESC-ID; Instituto Superior Técnico - University of Lisbon"
+    ]
+  },
+  {
+    "title": "&amp;inator: Correct, Precise C-to-Rust Interface Translation",
+    "authors": [
+      "Victor Chen",
+      "Ayden Coughlin",
+      "Michael D. Bond"
+    ],
+    "affiliations": [
+      "Ohio State University",
+      "Ohio State University",
+      "Ohio State University"
+    ]
+  },
+  {
+    "title": "Hayroll: A Modular Wrapper for Translating C Macros and Conditional Compilation to Rust",
+    "authors": [
+      "Haoran Peng",
+      "Baris Kasikci",
+      "Gilbert Louis Bernstein",
+      "Michael D. Ernst"
+    ],
+    "affiliations": [
+      "University of Washington",
+      "University of Washington",
+      "University of Washington",
+      "University of Washington"
+    ]
+  },
+  {
+    "title": "VerusBelt: A Semantic Foundation for Verus’s Proof-Oriented Extensions to the Rust Type System",
+    "authors": [
+      "Travis Hance",
+      "Laila Elbeheiry",
+      "Yusuke Matsushita",
+      "Derek Dreyer"
+    ],
+    "affiliations": [
+      "MPI-SWS",
+      "MPI-SWS",
+      "Kyoto University",
+      "MPI-SWS"
+    ]
+  },
+  {
+    "title": "Pure Borrow: Linear Haskell Meets Rust-Style Borrowing",
+    "authors": [
+      "Yusuke Matsushita",
+      "Hiromi Ishii"
+    ],
+    "affiliations": [
+      "Kyoto University",
+      "JIJ"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Homomorphism Calculus for User-Defined Aggregations",
+    "authors": [
+      "Ziteng Wang",
+      "Ruijie Fang",
+      "Linus Zheng",
+      "Dixin Tang",
+      "Işıl Dillig"
+    ],
+    "affiliations": [
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin"
+    ]
+  },
+  {
+    "title": "Bonsai: Compiling Queries to Pruned Tree Traversals",
+    "authors": [
+      "Alexander J Root",
+      "Christophe Gyurgyik",
+      "Purvi Goel",
+      "Kayvon Fatahalian",
+      "Jonathan Ragan-Kelley",
+      "Andrew Adams",
+      "Fredrik Kjolstad"
+    ],
+    "affiliations": [
+      "Stanford University",
+      "Stanford University",
+      "Stanford University",
+      "Stanford University",
+      "Massachusetts Institute of Technology",
+      "Adobe Research",
+      "Stanford University"
+    ]
+  },
+  {
+    "title": "A Compiler for Fused Relational Operations on Multisets",
+    "authors": [
+      "James Dong",
+      "Fredrik Kjolstad"
+    ],
+    "affiliations": [
+      "Stanford University",
+      "Stanford University"
+    ]
+  },
+  {
+    "title": "Optimal Predicate Pushdown Synthesis",
+    "authors": [
+      "Robert Zhang",
+      "Eric Hayden Campbell",
+      "Dixin Tang",
+      "Işıl Dillig"
+    ],
+    "affiliations": [
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin",
+      "University of Texas at Austin"
+    ]
+  },
+  {
+    "title": "Simplifying Safety Proofs with Forward-Backward Reasoning and Prophecy",
+    "authors": [
+      "Eden Frenkel",
+      "Kenneth L. McMillan",
+      "Oded Padon",
+      "Sharon Shoham"
+    ],
+    "affiliations": [
+      "Tel Aviv University",
+      "University of Texas at Austin",
+      "Weizmann Institute of Science",
+      "Tel Aviv University"
+    ]
+  },
+  {
+    "title": "TreeCoder: Systematic Exploration and Optimisation of Decoding and Constraints for LLM Code Generation",
+    "authors": [
+      "Henrijs Princis",
+      "Arindam Sharma",
+      "Cristina David"
+    ],
+    "affiliations": [
+      "University of Bristol",
+      "University of Bristol",
+      "University of Bristol"
+    ]
+  },
+  {
+    "title": "[TOPLAS] Guiding LLM-based Loop Invariant Synthesis via Feedback on Local Reasoning Errors",
+    "authors": [
+      "Tianchi Li",
+      "Zhenyu Yan",
+      "Junhao Liu",
+      "Peng Di",
+      "Xin Zhang"
+    ],
+    "affiliations": [
+      "Peking University, China",
+      "Peking University",
+      "Peking University",
+      "Ant Group &amp; UNSW Sydney",
+      "Peking University"
+    ]
+  },
+  {
+    "title": "[SIGPLAN] Active Learning for Neurosymbolic Program Synthesis",
+    "authors": [
+      "Celeste Barnaby",
+      "Jocelyn Qiaochu Chen",
+      "Ramya Ramalingam",
+      "Osbert Bastani",
+      "Işıl Dillig"
+    ],
+    "affiliations": [
+      "University of Texas at Austin",
+      "New York University, University of Alberta",
+      "University of Pennsylvania",
+      "University of Texas at Austin"
+    ]
+  },
+  {
+    "title": "Revisiting Partial Tracing for Safe, Efficient, and Concurrent Garbage Collection in Unmanaged Languages",
+    "authors": [
+      "Jeonghyeon Kim",
+      "Jongse Park",
+      "Youngjin Kwon",
+      "Jeehoon Kang"
+    ],
+    "affiliations": [
+      "KAIST",
+      "KAIST",
+      "KAIST",
+      "FuriosaAI"
+    ]
+  },
+  {
+    "title": "Dynamically Checked Deep Immutability in Python",
+    "authors": [
+      "Fridtjof Stoldt",
+      "Sylvan Clebsch",
+      "Matthew A. Johnson",
+      "Matthew J. Parkinson",
+      "Tobias Wrigstad"
+    ],
+    "affiliations": [
+      "Uppsala University",
+      "Microsoft Azure Research",
+      "Microsoft Azure Research",
+      "Microsoft Azure Research",
+      "Uppsala University"
+    ]
+  },
+  {
+    "title": "FlexHeap: Dynamic I/O-Aware Heap Resizing for Managed Applications",
+    "authors": [
+      "Iacovos G. Kolokasis",
+      "Shoaib Akram",
+      "Foivos Zakkak",
+      "Polyvios Pratikakis",
+      "Angelos Bilas"
+    ],
+    "affiliations": [
+      "Foundation for Research and Technology Hellas; University of Crete",
+      "Australian National University",
+      "Red Hat",
+      "Foundation for Research and Technology Hellas; University of Crete",
+      "Foundation for Research and Technology Hellas; University of Crete"
+    ]
+  },
+  {
+    "title": "Virtualizing Continuations",
+    "authors": [
+      "Cong Ma",
+      "Jonghyun Jung",
+      "Yizhou Zhang"
+    ],
+    "affiliations": [
+      "University of Waterloo",
+      "University of Waterloo",
+      "University of Waterloo"
+    ]
+  }
+]
