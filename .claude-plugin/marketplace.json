@@ -1,0 +1,13 @@
+{
+  "name": "my-plugins",
+  "owner": {
+    "name": "Lslightly"
+  },
+  "plugins": [
+    {
+      "name": "conf-analysis",
+      "source": "./plugins/conf-analysis",
+      "description": "Academic conference paper analysis - generate reports from conference webpages"
+    }
+  ]
+}

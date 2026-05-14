@@ -1,0 +1,6 @@
+{
+  "name": "conf-analysis",
+  "version": "1.0.0",
+  "description": "Conference Analysis Plugin",
+  "skills": "./skills/"
+}

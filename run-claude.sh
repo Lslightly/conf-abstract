@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 
 # Add plugin directories as needed
 PLUGIN_DIRS=(
-  ./conf-analysis
+  ./plugins/conf-analysis
   # Add more plugins here: ./another-plugin
 )
 

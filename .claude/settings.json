@@ -1,0 +1,5 @@
+{
+  "enabledPlugins": {
+    "conf-analysis@my-plugins": true
+  }
+}
